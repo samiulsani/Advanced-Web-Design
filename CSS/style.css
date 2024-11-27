@@ -1,0 +1,49 @@
+.p1{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#p2{
+    color: green;
+    width: 200px;
+    height: 300px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.name{
+    color: white;
+    background-color: red;
+    padding: 20px 20px;
+    margin:50px;
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    background-color: brown;
+    padding: 20px;
+    margin:10px;
+    float: left;
+    border-radius: 6px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p,h3{
+    color: white;
+}
+
+.card a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
