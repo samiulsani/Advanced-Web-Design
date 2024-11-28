@@ -1,49 +1,66 @@
-.p1{
-    color: red;
-    font-size: 17px;
-    font-weight: bold;
+.p1 {
+  color: red;
+  font-size: 17px;
+  font-weight: bold;
 }
 
-#p2{
-    color: green;
-    width: 200px;
-    height: 300px;
-    text-align: justify;
-    font-size: 20px;
-    font-weight: bold;
-
+#p2 {
+  color: green;
+  width: 200px;
+  height: 300px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.name{
-    color: white;
-    background-color: red;
-    padding: 20px 20px;
-    margin:50px;
-    text-align: center;
+.name {
+  color: white;
+  background-color: red;
+  padding: 20px 20px;
+  margin: 50px;
+  text-align: center;
 }
 
-.card{
-    width: 300px;
-    background-color: brown;
-    padding: 20px;
-    margin:10px;
-    float: left;
-    border-radius: 6px;
+.box {
+  width: 1140px;
+  background-color: rgb(121, 193, 255);
+  overflow: hidden;
+  margin: auto;
 }
 
-.card img{
-    width: 100%;
-    border-radius: 10px;
+.box:nth-child(2){
+    background-color: white;
 }
 
-.card p,h3{
-    color: white;
+.card {
+  width: 300px;
+  background-color: brown;
+  padding: 20px;
+  margin: 10px;
+  float: left;
+  border-radius: 6px;
 }
 
-.card a{
-    text-decoration: none;
-    background-color: aqua;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card p,
+h3 {
+  color: white;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.card a:hover {
+  background-color: rgb(35, 153, 251);
+  color: white;
+  transition: 0.5s;
 }
