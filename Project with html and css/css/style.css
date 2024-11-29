@@ -1,0 +1,202 @@
+/* default code start */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.fix::before,
+.fix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* default code ended */
+
+.main {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* Header css */
+.header {
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+.logo {
+  width: 300px;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+.logo a {
+}
+.logo a img {
+}
+.menu {
+  float: right;
+  width: 650px;
+}
+.menu ul {
+  text-align: right;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  font-size: 16px;
+  margin-top: 22px;
+}
+.menu ul li a:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Header css ended */
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: rgb(147, 172, 255);
+    color: black;
+}
+
+/* banner css */
+.banner {
+}
+.banner img {
+}
+
+/* Banner css ended */
+
+/* Service css started */
+
+.services {
+}
+.title {
+}
+.title h4 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.service-card {
+    
+}
+.single-service {
+    background-color: teal;
+    float: left;
+    width: 320px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.single-service:last-child {
+    margin-right: 0px;
+}
+
+
+.single-service h4 {
+    color: whtie;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    /* padding: 20px 0px; */
+    padding-bottom: 20px;
+}
+
+.single-service img {
+}
+.single-service p {
+    color: white;
+    font-size: 15px;
+}
+.single-service a {
+    
+}
+
+/* service css ended */
+
+/* About start here */
+.about{
+    margin: 20px 0px ;
+}
+.about-us {
+    width: 680px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.about-us h4, .sidebar h4 {
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.about-us p{}
+.about-us a{}
+.sidebar{
+    width: 300px;
+    float: right;
+}
+
+.sidebar ul{}
+.sidebar ul li {
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: -6px 9px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    color: black;
+    padding: 10px 30px;
+    border-bottom: 1px solid silver;
+}
+
+.sidebar ul li:last-child a{
+    border-bottom: 0;
+}
+
+/* About end Here  */
+
+/* Footer start here  */
+.footer{
+    background-color: teal;
+    padding: 20px;
+}
+.footer p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+/* footer end here  */
