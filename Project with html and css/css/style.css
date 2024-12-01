@@ -1,5 +1,5 @@
 /* default code start */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Signika:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Signika:wght@300..700&display=swap");
 
 * {
   margin: 0px;
@@ -14,8 +14,13 @@ body {
   font-style: normal;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: "Signika", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
 }
 
 img {
@@ -45,6 +50,10 @@ ul {
 }
 
 /* Header css */
+.header-area {
+  background-color: #e4e4e4;
+}
+
 .header {
   background-color: #e4e4e4;
   padding: 20px;
@@ -101,16 +110,24 @@ ul {
 }
 
 /* banner css */
+.banner-area {
+  background-color: aliceblue;
+}
 .banner {
 }
 .banner img {
+  vertical-align: middle;
 }
 
 /* Banner css ended */
 
 /* Service css started */
+.service-area {
+  background-color: aliceblue;
+}
 
 .services {
+  padding: 40px 0px;
 }
 .title {
 }
@@ -118,7 +135,7 @@ ul {
   text-align: center;
   font-size: 42px;
   font-weight: 700;
-  margin: 20px 0px;
+  padding-bottom: 40px;
 }
 .service-card {
 }
@@ -156,8 +173,11 @@ ul {
 /* service css ended */
 
 /* About start here */
+.about-area {
+  background-color: aliceblue;
+}
 .about {
-  margin: 20px 0px;
+  padding: 20px 0px;
 }
 .about-us {
   width: 680px;
@@ -295,12 +315,12 @@ ul {
 .contact-form form {
 }
 .contact-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    text-transform: capitalize;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  text-transform: capitalize;
 }
 .contact-form textarea {
   width: 100%;
@@ -344,8 +364,8 @@ ul {
   border-bottom: 1px solid #ddd;
   padding: 20px 0px;
 }
-.contact-address ul li:last-child{
-    border-bottom: 0px;
+.contact-address ul li:last-child {
+  border-bottom: 0px;
 }
 .contact-address ul li span {
   font-weight: bold;
