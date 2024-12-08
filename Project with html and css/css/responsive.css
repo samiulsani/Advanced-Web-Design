@@ -1,5 +1,7 @@
 /* Responsive start Here */
 
+/* min-width:992px but we do 970px and checking point on browser 1000px  */
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .main {
     width: 970px;
@@ -15,5 +17,31 @@
 
   .about-us {
     width: 650px;
+  }
+}
+
+/* min-width:992px but we do 750px and checking point on browser 800px  */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main {
+    width: 750px;
+  }
+  .logo {
+    width: 220px;
+  }
+
+  .menu {
+    width: 480px;
+  }
+
+  .single-service {
+    width: 236px;
+  }
+  .about-us {
+    width: 430px;
+  }
+
+  .menu ul li a {
+    margin-top: 8px;
   }
 }
