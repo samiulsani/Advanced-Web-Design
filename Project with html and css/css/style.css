@@ -280,6 +280,10 @@ ul {
 }
 .gallery {
 }
+
+.gallerys .title h4 {
+  padding: 40px;
+}
 .single-video {
   float: left;
   width: 238px;
@@ -382,5 +386,3 @@ ul {
 }
 
 /* Contact page end here  */
-
-

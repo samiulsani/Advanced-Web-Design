@@ -18,6 +18,17 @@
   .about-us {
     width: 650px;
   }
+
+  .gallerys .title h4 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    padding: 40px;
+  }
+
+  .single-video {
+    width: 231px;
+  }
 }
 
 /* min-width:992px but we do 750px and checking point on browser 800px  */
@@ -43,5 +54,68 @@
 
   .menu ul li a {
     margin-top: 8px;
+  }
+
+  .single-video {
+    width: 176px;
+  }
+}
+
+/* max-width: 767px but we do width: 300px and checking point on browser 400px  */
+
+@media only screen and (max-width: 767px) {
+  .main {
+    width: 300px;
+  }
+
+  .logo {
+    width: 100%;
+    margin: 0px;
+    float: none;
+  }
+
+  .menu,
+  .about-us,
+  .sidebar {
+    width: 100%;
+  }
+  .menu ul {
+    text-align: left;
+  }
+  .menu ul li a {
+    padding: 0px 7px;
+  }
+
+  .single-service {
+    /* background-color: teal; */
+    /* float: left; */
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .title h4 {
+    font-size: 30px;
+  }
+  .about-us {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .single-video {
+    float: left;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  
+}
+
+/* max-width: 767px and min-width:480px common device but we do width: 450px and checking point on browser 480px  */
+
+@media only screen (min-width: 480px) and (max-width: 767px) {
+  .main {
+    width: 450px;
   }
 }
