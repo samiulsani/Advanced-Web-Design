@@ -29,6 +29,10 @@
   .single-video {
     width: 231px;
   }
+  .contact-form {
+    width: 550px;
+    margin-left: 20px;
+  }
 }
 
 /* min-width:992px but we do 750px and checking point on browser 800px  */
@@ -108,8 +112,6 @@
     margin-right: 0px;
     margin-bottom: 15px;
   }
-
-  
 }
 
 /* max-width: 767px and min-width:480px common device but we do width: 450px and checking point on browser 480px  */
