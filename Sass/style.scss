@@ -1,0 +1,33 @@
+/*variable start*/
+
+$main_color:#FFA500;
+$background_color:gray;
+
+/*variable end*/
+
+/* import file from another file*/
+
+@import 'layout/common';
+
+/*import file end*/
+
+
+.menu {
+  background-color: $main_color;
+  padding: 20px 20px;
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+
+      a {
+        padding: 20px 20px;
+        text-decoration: none;
+        &:hover {
+          background-color: red;
+          color: white;
+        }
+      }
+    }
+  }
+}
