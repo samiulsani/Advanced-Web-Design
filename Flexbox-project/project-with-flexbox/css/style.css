@@ -1,0 +1,311 @@
+/* universal code start  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* universal code finished */
+
+/* headersection start  */
+
+.header-area {
+  padding: 30px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.logo a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 8px 8px;
+  transition: 0.6s;
+}
+
+.menu ul li a:hover {
+  background: #f1f1f1;
+  color: tomato;
+  border-radius: 6px;
+}
+
+/* header end  */
+
+/* banner section start  */
+
+.banner-area img {
+  border: 2px solid #ddd;
+  padding: 2px;
+}
+
+/* banner section end  */
+
+/* about start  */
+
+.about-area {
+  padding: 40px 0;
+}
+
+.about-title {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.about-title h4 {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.about-title p {
+  font-size: 16px;
+}
+
+.about-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.single-about {
+  flex-basis: 32%;
+  padding: 40px 20px;
+  border: 1px solid #ddd;
+  transition: 0.5s;
+}
+
+.single-about:hover {
+  border-color: tomato;
+}
+.single-about i {
+  font-size: 34px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  padding: 11px;
+}
+
+.single-about h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+
+.single-about p {
+  font-size: 16px;
+}
+
+/* about end  */
+
+/* service area start  */
+
+.services-area {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+
+.services-title h4 {
+  font-size: 34px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.single-services {
+  background: white;
+  padding: 16px;
+  flex-basis: 32%;
+}
+
+.single-services h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+  background-color: teal;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.single-services p {
+  line-height: 24px;
+  margin: 20px 0;
+}
+
+.single-services a {
+  background: tomato;
+  padding: 10px 24px;
+  color: white;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+/* services area end  */
+
+/* Gallery start  */
+
+.gallery-area {
+  padding: 80px 0;
+}
+
+.gallery-title h4 {
+  font-size: 34px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.gallery-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-gallery {
+  flex-basis: 24%;
+  margin-bottom: 20px;
+}
+
+/* Gallery end  */
+
+/* Contact area start  */
+
+.contact-area{
+  background-color: #f2f2f2;
+  padding: 80px 0px ;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form{
+  flex-basis: 60%;
+}
+.contact-form input, .contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact-form input[type="submit"]{
+  background-color: tomato;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.contact-address{
+  flex-basis: 35%;
+}
+
+/* contact area contact Address*/
+
+.single-address {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.single-address i {
+  background: tomato;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  margin-right: 10px;
+}
+
+.single-address h4 {
+  color: black;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.single-address h4 span{
+  display: block;
+  color: black;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+
+
+/* Contact area end  */
+
+
+/* Footer area start  */
+
+.footer-area{
+  background-color: teal;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px ;
+  font-weight: bold;
+}
+
+/* Footer area end  */
